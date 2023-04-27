@@ -69,7 +69,6 @@ export const skills = [
   { title: "CSS", range: 70 },
   { title: "Bootstrap", range: 70 },
   { title: "Docker Basics", range: 60 },
-  { title: "Circle CI", range: 60 },
   { title: "Amazon AWS EC2", range: 70 },
   { title: "Amazon AWS EB", range: 70 },
   { title: "Amazon AWS S3", range: 70 },
