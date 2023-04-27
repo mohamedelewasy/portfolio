@@ -45,14 +45,19 @@ export const Contact = () => {
                     alt="location"
                     style={contactStyleOption}
                   />
-                  Giza, Haram
+                  Cairo, Maadi
                 </span>
                 <p>
                   <a href={linkedinURL} target="_blank" rel="noreferrer">
                     <img
                       src={linkedin}
                       alt="linkedin"
-                      style={{ filter: "invert(100%)", width: "25px" }}
+                      style={{
+                        filter: "invert(100%)",
+                        width: "25px",
+                        marginRight: "10px",
+                        marginLeft: "10px",
+                      }}
                     />
                   </a>
                   <a href={githubURL} target="_blank" rel="noreferrer">
@@ -62,8 +67,8 @@ export const Contact = () => {
                       style={{
                         filter: "invert(100%)",
                         width: "25px",
-                        marginRight: "20px",
-                        marginLeft: "20px",
+                        marginRight: "10px",
+                        marginLeft: "10px",
                       }}
                     />
                   </a>
@@ -71,7 +76,28 @@ export const Contact = () => {
                     <img
                       src={facebook}
                       alt="facebook"
-                      style={{ filter: "invert(100%)", width: "25px" }}
+                      style={{
+                        filter: "invert(100%)",
+                        width: "25px",
+                        marginRight: "10px",
+                        marginLeft: "10px",
+                      }}
+                    />
+                  </a>
+                  <a
+                    href="https://wa.me/+01552159359"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={whatsapp}
+                      alt="whatsapp"
+                      style={{
+                        filter: "invert(100%)",
+                        width: "25px",
+                        marginRight: "10px",
+                        marginLeft: "10px",
+                      }}
                     />
                   </a>
                 </p>

@@ -41,17 +41,16 @@ export const About = () => {
 
                   <div className="biography">
                     <p>
-                      Hello, my name is Mohamed Mostafa Mijahid and I am a fresh
-                      graduate from the Faculty of Computer and Informatics. I
-                      specialized in Computer Science and graduated with a grade
-                      good in May 2020, along with an excellent graduation
-                      project. Coding has been my passion since a very young
-                      age, and I aspire to become a great software engineer. I
-                      am well-versed in frameworks like Express and React, and I
-                      can also code in Python. Additionally, I have a good
-                      understanding of databases such as PostgreSQL and MongoDB.
-                      Currently, I am seeking an opportunity to work as a
-                      backend web developer to enhance my skills further and
+                      Greeting, I am Mohamed Mostafa , a recent graduate from
+                      the Faculty of Computer and Informatics. I specialized in
+                      Computer Science, graduate (May 2020) with a good grade
+                      and an excellent graduation project. Coding has been my
+                      passion since a very young age, and I aspire to become a
+                      great software engineer. I am well-versed in frameworks
+                      such as Express, React and Python. I possess a strong
+                      understanding of databases, including PostgreSQL and
+                      MongoDB. I am currently seeking an opportunity to work as
+                      a backend web developer to enhance my skills further and
                       become an exceptional developer.
                     </p>
                   </div>
