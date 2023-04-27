@@ -6,6 +6,9 @@ orbs:
   # different jobs are calles later in the workflows sections
 jobs:
   build:
+  docker:
+      # the base image can run most needed actions with orbs
+      - image: "cimg/node:18.15"
     steps:
       - aws-cli/setup
       # Use root level package.json to install dependencies in the frontend app
