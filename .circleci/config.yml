@@ -26,14 +26,14 @@ jobs:
           name: frontend deploy
           command: npm run deploy
 workflows:
-  udagram:
+  portfolio:
     jobs:
       - build
       - hold:
           filters:
             branches:
               only:
-                - deploy
+                - main
           type: approval
           requires:
             - build
