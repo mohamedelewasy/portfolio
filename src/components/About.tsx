@@ -4,6 +4,7 @@ import profile from "../assets/img/team/team_member_02.png";
 import facebook from "../assets/img/svg/facebook.svg";
 import linkedin from "../assets/img/svg/linkedin.svg";
 import github from "../assets/img/svg/github.svg";
+import pdf from "../assets/img/svg/pdf.svg";
 import { facebookURL, githubURL, linkedinURL } from "../urls";
 
 export const About = () => {
@@ -90,6 +91,24 @@ export const About = () => {
                           className="si"
                           src={facebook}
                           alt="facebook"
+                          width="25px"
+                          style={{
+                            filter:
+                              "invert(25%) sepia(8%) saturate(1522%) hue-rotate(157deg) brightness(97%) contrast(95%)",
+                          }}
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={require("../assets/pdf/24042023.pdf")}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          className="si"
+                          src={pdf}
+                          alt="pdf"
                           width="25px"
                           style={{
                             filter:
