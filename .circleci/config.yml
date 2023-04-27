@@ -6,10 +6,14 @@ orbs:
   # different jobs are calles later in the workflows sections
 jobs:
   build:
-  docker:
+    docker:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:18.15"
     steps:
+      # install node and checkout code
+      - node/install:
+          node-version: "18.15"
+      - checkout
       - aws-cli/setup
       # Use root level package.json to install dependencies in the frontend app
       - run:
@@ -17,7 +21,7 @@ jobs:
           command: npm run install
       - run:
           name: Front-End Build
-          command: npm build
+          command: npm run build
       # deploy
       - run:
           name: frontend deploy
@@ -30,7 +34,7 @@ workflows:
           filters:
             branches:
               only:
-                - main
+                - master
           type: approval
           requires:
             - build
