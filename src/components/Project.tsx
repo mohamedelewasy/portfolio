@@ -1,5 +1,3 @@
-import tempImage from "../assets/img/portfolio/placeholder_370_x_300.jpg";
-
 export interface Iproject {
   thumbnail: string | null;
   category: string[];
@@ -13,27 +11,6 @@ export const Project = (project: Iproject) => {
     <figure className={`grid-item mix all ${project.category.join(" ")} card`}>
       <li className="cards_item">
         <div className="card">
-          <div className="card_image">
-            <a
-              href={project.url}
-              target="_blank"
-              rel="noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              <img
-                src={
-                  project.thumbnail
-                    ? require(`../assets/img/portfolio/${project.thumbnail}.jpg`)
-                    : tempImage
-                }
-                alt={project.title}
-              />
-            </a>
-
-            <span className="card_price">
-              <span>{project.category.join(" - ")}</span>
-            </span>
-          </div>
           <div className="card_content">
             <a
               href={project.url}

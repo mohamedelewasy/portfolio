@@ -50,9 +50,10 @@ export const About = () => {
                       great software engineer. I am well-versed in frameworks
                       such as Express, React and Python. I possess a strong
                       understanding of databases, including PostgreSQL and
-                      MongoDB. I am currently seeking an opportunity to work as
-                      a backend web developer to enhance my skills further and
-                      become an exceptional developer.
+                      MongoDB.
+                      <br /> <br />I am currently seeking an opportunity to work
+                      as a backend web developer to enhance my skills further
+                      and become an exceptional developer.
                     </p>
                   </div>
 

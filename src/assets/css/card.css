@@ -92,7 +92,7 @@ body {
   flex-direction: column;
   overflow: hidden;
   width: 100%;
-  min-height: 565px;
+  min-height: 300px;
 }
 
 .card_content {
