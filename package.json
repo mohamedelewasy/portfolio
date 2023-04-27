@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "install": "cd portfolio && npm install",
     "start": "cd portfolio && npm run start",
     "build": "cd portfolio && npm run build",
     "test": "echo 'pass test'",
