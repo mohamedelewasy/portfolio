@@ -4,6 +4,9 @@ orbs:
   node: circleci/node@5.0.2
   aws-cli: circleci/aws-cli@3.1.1
   # different jobs are calles later in the workflows sections
+test:
+  override:
+    - echo "test"
 jobs:
   build:
   docker:
